@@ -8,6 +8,14 @@
 #define _PUBLIC_H
 
 #include <stdio.h>
+#include <cstdio>
+#include <cctype>
+#include <ctime>
+#include <cstring>
+#include <cstdlib>
+#include <stdint.h>
+#include <csignal>
+#include <unistd.h>
 
 #include <string>
 #include <vector>
@@ -38,7 +46,7 @@ bool SeperateString(string s, string sSeperator, vector<string>& vPart);
 string uint64tostr(uint64 n);
 string uint64tohexstr(uint64 n);
 string HexToStr(const unsigned char* pData, int nLen);
-unsigned int GetAvailPhysMemorySize();
+unsigned long GetAvailPhysMemorySize();
 void ParseHash(string sHash, unsigned char* pHash, int& nHashLen);
 
 void Logo();
