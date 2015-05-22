@@ -23,3 +23,8 @@ FOSS software packages to generate rainbow tables do not exist.
 
 rracki_mt (freerainbowtables), and RainbowCrack (project-rainbowcrack.com),
 both went closed source, for the table generation part.
+
+TODO
+----
+
+* Pull in changes from https://github.com/kost/drcrack project
